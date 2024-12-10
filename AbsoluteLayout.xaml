@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsoDeLayoutsDiaz.AbsoluteLayout"
+             Title="AbsoluteLayout"
+             BackgroundColor="YellowGreen">
+    <AbsoluteLayout>
+        <Button 
+            Text="Click me"
+            AbsoluteLayout.LayoutBounds="0.5, 0.1, 60, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            BackgroundColor="Black"/>
+        <Button
+            Text=".NET MAUI"
+            AbsoluteLayout.LayoutBounds="0.9, 0.5, 60, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            BackgroundColor="Chocolate"/>
+        <Button
+            Text="Este es el Absolute Layout"
+            AbsoluteLayout.LayoutBounds="0.1, 0.5, 60, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            BackgroundColor="Pink"/>
+        <Button
+            x:Name="GridLayoutButton"
+            AbsoluteLayout.LayoutBounds="0.5, 0.5, 60, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Text="GRIDLAYOUT"
+            Clicked="GridLayoutButton_Clicked"
+            BackgroundColor="Blue"/>
+    </AbsoluteLayout>
+</ContentPage>
