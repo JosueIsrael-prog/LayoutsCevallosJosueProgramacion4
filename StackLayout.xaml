@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsoDeLayoutsDiaz.StackLayout"
+             Title="StackLayout">
+    <VerticalStackLayout
+        VerticalOptions="Center"
+        Spacing="20">
+
+        <Label 
+            Text="Este es el STACKLATOUT"
+            FontFamily="Comic Sans MS"
+            FontSize="32"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            BackgroundColor="Aquamarine"/>
+
+        <Label
+            Text="Mi nombre es DANIEL DIAZ"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontFamily="Segoe Script"
+            FontSize="38"
+            BackgroundColor="Gold"/>
+
+        <Label
+            Text="El éxito es la suma de pequeños esfuerzos repetidos día tras día."
+            VerticalOptions="Center"
+            HorizontalOptions="FillAndExpand"
+            FontFamily="Kristen ITC"
+            FontSize="25"
+            BackgroundColor="LightSalmon"/>
+
+        <Label
+            Text="Este es el STACKLAYOUT"
+            FontFamily="Comic Sans MS"
+            FontSize="22"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            BackgroundColor="Orange"/>
+
+        <Label
+            Text="Mi segundo nombre es Patricio"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontFamily="Segoe Script"
+            FontSize="28"
+            BackgroundColor="Brown"/>
+
+        <Label
+            Text="El trabajo duro vence al talento cuando el talento no trabaja duro."
+            VerticalOptions="Center"
+            HorizontalOptions="FillAndExpand"
+            FontFamily="Kristen ITC"
+            FontSize="15"
+            BackgroundColor="DeepSkyBlue"/>
+
+        <Button
+            x:Name="FlexButton"
+            Text="FlexLayout"
+            Grid.Row="2" Grid.Column="1"
+            BackgroundColor="Silver"
+            Clicked="FlexButton_Clicked"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
