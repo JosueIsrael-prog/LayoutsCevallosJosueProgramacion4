@@ -6,4 +6,9 @@ public partial class AbsoluteLayout : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void GridLayoutButton_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

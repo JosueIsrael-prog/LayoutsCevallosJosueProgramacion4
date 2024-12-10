@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsoDeLayoutsDiaz.GridLayout"
+             Title="GridLayout">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Button
+            x:Name="InfoButton"
+            Text="Informacion de mi"
+            Grid.Row="0" Grid.Column="0"
+            BackgroundColor="Red"
+            Clicked="InfoButton_Clicked"/>
+
+        <Button
+            x:Name="StackButton"
+            Text="StackLayout"
+            Grid.Row="0" Grid.Column="1"
+            BackgroundColor="LightBlue"
+            Clicked="StackButton_Clicked"/>
+
+        <Button
+            x:Name="GitHubButton"
+            Text="Click me! GITHUB"
+            Grid.Row="1" Grid.Column="0"
+            BackgroundColor="LightGreen"
+            Clicked="GitHubButton_Clicked"/>
+
+        <Button
+            x:Name="FavoriteSongButton"
+            Text="Cancion Favorita"
+            Grid.Row="1" Grid.Column="1"
+            BackgroundColor="Gray"
+            Clicked="FavoriteSongButton_Clicked"/>
+
+
+    </Grid>
+</ContentPage>
