@@ -7,23 +7,23 @@ public partial class FlexLayout : ContentPage
 		InitializeComponent();
 	}
 
-    private void AbsoluteButton1_Clicked(object sender, EventArgs e)
+    private async void AbsoluteButton1_Clicked(object sender, EventArgs e)
     {
-
+        await Navigation.PushAsync(new AbsoluteLayout());
     }
 
-    private void AbsoluteButton2_Clicked(object sender, EventArgs e)
+    private async void AbsoluteButton2_Clicked(object sender, EventArgs e)
     {
-
+        await Navigation.PushAsync(new AbsoluteLayout());
     }
 
-    private void AbsoluteButton3_Clicked(object sender, EventArgs e)
+    private async void AbsoluteButton3_Clicked(object sender, EventArgs e)
     {
-
+        await Navigation.PushAsync(new AbsoluteLayout());
     }
 
-    private void AbsoluteButton4_Clicked(object sender, EventArgs e)
+    private async void AbsoluteButton4_Clicked(object sender, EventArgs e)
     {
-
+        await Navigation.PushAsync(new AbsoluteLayout());
     }
 }
