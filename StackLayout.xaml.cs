@@ -11,4 +11,4 @@ public partial class StackLayout : ContentPage
     {
 		await Navigation.PushAsync(new FlexLayout());
     }
-}
+}// Modificado por Josue Cevallos 

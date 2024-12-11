@@ -26,4 +26,4 @@ public partial class FlexLayout : ContentPage
     {
         await Navigation.PushAsync(new AbsoluteLayout());
     }
-}
+}// Modificado por Josue Cevallos 

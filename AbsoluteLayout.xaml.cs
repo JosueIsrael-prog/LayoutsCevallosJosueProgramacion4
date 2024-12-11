@@ -11,4 +11,4 @@ public partial class AbsoluteLayout : ContentPage
     {
         await Navigation.PushAsync(new GridLayout());
     }
-}
+}// Modificado por Josue Cevallos 
